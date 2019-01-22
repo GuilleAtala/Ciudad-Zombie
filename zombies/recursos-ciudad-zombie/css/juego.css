@@ -1,0 +1,27 @@
+body {
+    background-image: url('../imagenes/fondo.png');
+}
+
+canvas {
+    margin: auto;
+    display: flex;
+    margin-top: calc(50vh - 286px);
+}
+
+.boton-recargar {
+    margin: auto;
+    display: flex;
+    background: none;
+    border: none;
+    color: white;
+    font-family: monospace;
+    visibility: hidden;
+}
+
+footer {
+    text-align: center;
+    color: #fdfdfc;
+    top: 10px;
+    left: 10px;
+    text-shadow: rgb(12, 12, 12) 0.1em 0.1em 0.2em
+}
